@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>ugv_experiment</name>
+  <version>0.0.0</version>
+  <description>TODO: Package description</description>
+  <maintainer email="ubuntu@todo.todo">ubuntu</maintainer>
+  <license>BSD</license>
+
+  <depend>robot_state_publisher</depend>
+  <depend>rviz2</depend>
+  <depend>joint_state_publisher_gui</depend>
+  <depend>gazebo</depend>
+  <depend>rclpy</depend>
+  <depend>sensor_msgs</depend>
+  <depend>geometry_msgs</depend>
+  <depend>tf2_ros</depend>
+  <depend>cv_bridge</depend>
+  <depend>nav_msgs</depend>
+  <depend>tf_transformations</depend>
+
+  <export>
+     <architecture_independent />
+     <build_type>ament_cmake</build_type>
+  </export>
+</package>
